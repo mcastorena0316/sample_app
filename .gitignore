@@ -100,3 +100,6 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 >>>>>>> a4e803d7b914b063d7be0248b4bf21bc3aa4f147
+
+# Ignore Spring files.
+/spring/*.pid
