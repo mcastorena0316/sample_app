@@ -5,6 +5,7 @@ ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.1'
+gem 'bcrypt', '3.1.12'
 gem "bootstrap-sass", ">= 3.4.1"
 # Use sqlite3 as the database for Active Record
 group :development, :test do
