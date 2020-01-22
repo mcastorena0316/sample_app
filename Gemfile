@@ -7,6 +7,8 @@ ruby '2.6.5'
 gem 'rails', '~> 6.0.1'
 gem 'bcrypt', '3.1.12'
 gem 'faker'
+gem 'carrierwave'            
+gem 'mini_magick'         
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem "bootstrap-sass", ">= 3.4.1"
@@ -16,7 +18,8 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg' 
+  gem 'fog'
 end
 
 # Use Puma as the app server
